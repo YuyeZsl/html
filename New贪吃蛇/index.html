@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+	</head>
+
+	<body>
+		<div id="box">
+			<canvas id="canvas1" width="800" height="800">
+            
+           </canvas>
+			<div id="btn1">
+				得分:0
+			</div>
+			<div id="btn2" onclick="startGame()">
+
+			</div>
+
+			<div id="btn3" onclick="musicPlay()">
+				打开音乐
+			</div>
+			<div id="explain">
+				<img id="img1" src="img/clock.png" />
+				<div id="time">
+					计时:0s
+				</div>
+				<p id="p1">说明</p><br />
+				<p id="p2">操作</p>
+				<img id="img2" src="img/keyDown.jpg" />
+				<p id="p3">版本信息:贪吃蛇V2.0</p>
+			</div>
+			<audio id="player">
+              <source src="BGM.mp3"></source>
+            </audio>
+		</div>
+
+	</body>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

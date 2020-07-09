@@ -1,0 +1,108 @@
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+#box{
+	width: 1000px;
+	height: 900px;
+	position:absolute ;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: black;
+	border-radius: 10px;
+	border: 1px solid aqua;
+	box-shadow: 0px,0px,10px aqua;
+}
+#canvas1 {
+	background-color: black;
+	box-shadow: 0 0 3px red;
+	background-size: 100%;
+}
+#btn1{
+	position:absolute ;
+	top: 820px;
+	left: 20px;
+	width: 160px;
+	height: 60px;
+	font-size: 25px;
+	text-align: center;
+	background: url(../img/bg_02.png);	
+	background-size: 160px 60px;
+	line-height:60px;		
+}
+#btn2{
+	position:absolute ;
+	top: 820px;
+	left: 350px;
+	width: 60px;
+	height: 60px;
+	font-size: 25px;
+	text-align: center;
+	background: url(../img/bofang.png);
+	background-size: 100%;
+	
+	cursor: pointer;
+		
+}
+#btn3{
+	position:absolute ;
+	top: 820px;
+	left: 600px;
+	width: 160px;
+	height: 60px;
+	font-size: 25px;
+	text-align: center;
+	background: url(../img/bg_02.png);
+	background-size: 160px 60px;
+	line-height:60px;
+	cursor: pointer;
+		
+}
+#btn3:hover{
+	color: tan;
+}
+#explain{
+	position:absolute ;
+	top: 20px;
+	left: 800px;
+	width: 200px;
+	height: 400px;
+	color: white;	
+}
+#p1{
+	position:absolute ;
+	top: 100px;
+	font-size: 25px;
+}
+#p2{
+	position:absolute ;
+	top: 140px;
+	font-size: 20px;
+}
+#img1{
+
+    max-height: 10%;
+    max-width: 20%;
+}
+#img2{
+    position:absolute ;
+	top: 170px;
+    max-height: 100%;
+    max-width: 100%;
+}
+#p3{
+	position:absolute ;
+	top: 320px;
+	font-size: 20px;
+}
+#time{
+	position:absolute ;
+	top: 6px;
+	left: 60px;
+	width: 80px;
+	height: 80px;
+	font-size: 20px;
+}
